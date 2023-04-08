@@ -18,3 +18,5 @@ Yea, the bot is currently feeding many servers, but you can see it in action on 
 Also take note that it expects a channels unique identifier. For instance, my youtube channel's identifer would be `UCZV7QVzq3zCyWuA20h7sn6w`, since my YT link is `https://www.youtube.com/channel/UCZV7QVzq3zCyWuA20h7sn6w`. If using sqlite, just put the identifier in the subreddit column.
 
 ***NOTE: If using sqlite, see `DiscordBotDB.png` for table structure this bot expects
+
+This bot is still WIP. You'll notice it posts in my discord channel twice for each video, that is because I have it feeding 2 different YT channels into 2 different discord channels. If you're just feeding a single YT channel into a single discord channel you won't have this problem. Its a bug I haven't been able to fix, so if you fix it please let me know and I'll update this.
