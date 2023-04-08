@@ -19,3 +19,9 @@ Also take note that it expects a channels unique identifier. For instance, my yo
 ***NOTE: If using sqlite, see `DiscordBotDB.png` for table structure this bot expects
 
 This bot is still WIP. You'll notice it posts in my discord channel twice for each video, that is because I have it feeding 2 different YT channels into 2 different discord channels. If you're just feeding a single YT channel into a single discord channel you won't have this problem. Its a bug I haven't been able to fix, so if you fix it please let me know and I'll update this.
+
+# History
+I developed my discord bots after KITROBIT stopped providing their services and ran a small PATREON page to generate support. I recently disabled patreon income and decided to just generalize my code and upload to GITHUB. I may tweak them over time as they all run 24/7 for various discord servers right now. If you make any positive tweaks/changes/fixes please let me know to update these repositories. 
+
+# Buy me a beer?
+Feel free to paypal me a couple bucks for a beer! `str4ng3r 4t d4ng3r d0t com`
