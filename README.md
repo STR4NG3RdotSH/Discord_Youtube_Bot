@@ -7,13 +7,12 @@ Yea, the bot is currently feeding many servers, but you can see it in action on 
 # Usage 
 (Under the assumption you installed sqlite and have created a database structured like `DiscordBotDB.png`)
 - Ensure you add your discord webhook URL to your sqlite db (See `DiscordBotDB.png`)
-- Pull the SH script to your run location (I just run it from user folder `/home/<user>/projects/discord_bots/reddit` but you can run it from anywhere.)
+- Pull the SH script to your run location (I just run it from user folder `/home/<user>/projects/discord_bots/youtube` but you can run it from anywhere.)
 - Set the `hooks` var (line 4) to specify DB/Table/Data selections
 - Set the `bot_files` var (line 8), this tells the bot where to cache used URLs
-- Set the `flow` var (Possible values are `quality` and `quantity`. Difference is hottest image vs latest image.
 - Set the bot to run however you like. I have it set to run every 5 minutes via CRON (Example below)
 -- Cron file: `/etc/cron.d/run_all_discord_bots`
--- Cron file contents: `*/5 * * * * root /home/admin/projects/discord_bots/reddit/bot_reddit.sh`
+-- Cron file contents: `*/5 * * * * root /home/admin/projects/discord_bots/reddit/bot_youtube.sh`
 
 Also take note that it expects a channels unique identifier. For instance, my youtube channel's identifer would be `UCZV7QVzq3zCyWuA20h7sn6w`, since my YT link is `https://www.youtube.com/channel/UCZV7QVzq3zCyWuA20h7sn6w`. If using sqlite, just put the identifier in the subreddit column.
 
