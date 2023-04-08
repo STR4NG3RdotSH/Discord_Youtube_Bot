@@ -8,8 +8,8 @@ Yea, the bot is currently feeding many servers, but you can see it in action on 
 (Under the assumption you installed sqlite and have created a database structured like `DiscordBotDB.png`)
 - Ensure you add your discord webhook URL to your sqlite db (See `DiscordBotDB.png`)
 - Pull the SH script to your run location (I just run it from user folder `/home/<user>/projects/discord_bots/youtube` but you can run it from anywhere.)
-- Set the `hooks` var (line 4) to specify DB/Table/Data selections
-- Set the `bot_files` var (line 8), this tells the bot where to cache used URLs
+- Set the `hooks` var to specify DB/Table/Data selections
+- Set the `bot_files` var, this tells the bot where to cache used URLs
 - Set the bot to run however you like. I have it set to run every 5 minutes via CRON (Example below)
 -- Cron file: `/etc/cron.d/run_all_discord_bots`
 -- Cron file contents: `*/5 * * * * root /home/admin/projects/discord_bots/reddit/bot_youtube.sh`
